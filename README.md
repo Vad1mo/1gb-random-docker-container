@@ -1,2 +1,13 @@
-# 1gb-random-file-container
-A Container that is 1GB in size perfect to test the bandwidth of a docker registry end-to-end
+# 1GB Docker Image
+
+
+This is a sample Docker image that generates a random 1GB file. 
+Actually it is not exactly 1GB but 1.004GB because it is based on alpine linux that brings 4 MB.
+
+# Why
+Main reason behind this image is test the upload and download speed from and to a docker registry.
+
+
+# Thanks
+
+[Private Docker Registry](https://private-docker-registry.com)
